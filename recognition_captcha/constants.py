@@ -1,0 +1,4 @@
+BASE_64 = 'base64'
+GET = 'get'
+JSON = 1
+NOT_READY = "CAPCHA_NOT_READY"
