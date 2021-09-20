@@ -9,7 +9,7 @@ from exception import StatusCodeError, CaptchaError, ValidateSchemaError
 
 env_exc = environ.get("RMQ_EXCHANGE", 'services')
 env_queue = environ.get("RMQ_QUEUE", 'fms_agreement_in')
-env_token = environ.get("RUCAPTCHA_TOKEN", '26115232e2e58eeb34eace606cf1f5b9')
+env_token = environ.get("RUCAPTCHA_TOKEN", 'SOME_TOKEN')
 logger = getLogger(__name__)
 
 
